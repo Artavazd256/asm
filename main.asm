@@ -32,7 +32,6 @@ _copy:
     mov eax, [ebp+8]  ; set length of first argument 
     mov edi, [ebp+12] ; set address in the esi reg 
     mov esi, [ebp+16] ; set address in the edi reg 
-    xor edx, edx      ; set zero value 
     mov ecx , 0x8     ; set 8 number 
     mul ecx           ; calculate byte count 
     xor edx, edx      ; set zero value 
